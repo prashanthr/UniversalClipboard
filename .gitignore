@@ -6,6 +6,8 @@ node_modules
 typings
 
 # Compiled JS
+src/app/*.js
+src/app/*.map
 
 # Windows image file caches
 Thumbs.db
