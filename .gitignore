@@ -2,6 +2,9 @@
 app/node_modules
 node_modules
 
+#angular2.0 shell
+_angular2.0-shell
+
 # typings
 typings
 

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="UniversalClipboardApp">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Universal Clipboard</title>
+</head>
+<body>
+	<h2>Universal Clipboard</h2>
+	<div ng-controller="clipboardController">		
+		<form ng-submit="saveClipData()">
+          <input type="text" placeholder="Clipboard data" ng-model="data"></input>
+          <button type="submit">Save</button>
+        </form> 
+	</div>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.js"></script>	
+	 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-resource.js"></script>
+	<script type="text/javascript" src="/js/app.js"></script>
+	<script type="text/javascript" src="/js/controllers/clipboard-controller.js"></script>
+</body>
+</html>
