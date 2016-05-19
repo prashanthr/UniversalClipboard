@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/prashanthr/UniversalClipboard#readme",
   "dependencies": {
+    "body-parser": "^1.15.1",
     "express": "^4.13.4",
     "mongoose": "^4.4.17",
     "path": "^0.12.7"
